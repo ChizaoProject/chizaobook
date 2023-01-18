@@ -4,7 +4,7 @@
 
 > 『摛藻』是一个基于 JavaScript 开发的文学类项目.
 
-![](https://img.shields.io/badge/language-Javascript-yellow?style=flat-square) ![](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) [![](https://img.shields.io/badge/license-GPL%20v3.0-blue?style=flat-square)](https://github.com/ChizaoProject/chizaobook/blob/master/LICENSE) ![](https://img.shields.io/badge/version-0.1.0-red?style=flat-square)
+![](https://img.shields.io/badge/language-Javascript-yellow?style=flat-square) ![](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) [![](https://img.shields.io/badge/license-GPL%20v3.0-blue?style=flat-square)](https://github.com/ChizaoProject/chizaobook/blob/master/LICENSE) ![](https://img.shields.io/badge/version-1.0.0-red?style=flat-square)
 
 [![hits](https://img.shields.io/jsdelivr/gh/hy/ChizaoProject/chizaobook?style=flat-square)](https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook) ![code-size](https://img.shields.io/github/languages/code-size/ChizaoProject/chizaobook?style=flat-square) 
 
@@ -82,7 +82,7 @@ const chizaobook = new Chizaobook({
 // @date   : 2022/8/15
 // @Licence: GPL v3.0
 // @Website: https://chizao.fly6022.fun
-// @version: v0.1.0
+// @version: v1.0.0
 ```
 
 欲获取更加详细的项目内容，您可以尝试调用项目内置的静态属性：

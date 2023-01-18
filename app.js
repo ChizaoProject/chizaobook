@@ -1,16 +1,16 @@
 // -*- coding: utf-8 -*-
 // @name   : 摛藻Book(Chizao Book)
 // @author : fly6022 
-// @date   : 2022/8/14
+// @date   : 2023/1/18
 // @Licence: GPL v3.0
 // @Website: https://chizao.fly6022.fun
-// @version: v0.1.0
+// @version: v1.0.0
 
 Chizaobook_appData = new Object(); // 静态属性
 
-    Chizaobook_appData.Version = "v0.1.0"; // 版本号
+    Chizaobook_appData.Version = "v1.0.0"; // 版本号
     Chizaobook_appData.Developers = ['fly6022']; // 开发者
-    Chizaobook_appData.update_Time = "2022-8-14 17:16:24 / TimeZone: UTC+8"; // 最近维护时间
+    Chizaobook_appData.update_Time = "2023-1-18 22:10:15 / TimeZone: UTC+8"; // 最近维护时间
 
 let DefaultPackageSource, packageSource, rq, requestData, container, packageType, judgeType, result, ErrorCode;
 
