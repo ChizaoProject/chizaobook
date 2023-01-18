@@ -129,7 +129,7 @@ function getPackage(){
 
 }
 
-function socket(){ // 存储桶
+function socket(){ // 临时存储桶 & 传出接口
     
     const Chizao_content = requestData[1][rnd].content;
 
