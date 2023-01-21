@@ -35,13 +35,13 @@ class Chizaobook { // 传入参数
 
 window.onload = function selector(){ // 选择器
 
-    DefaultPackageSource = "/default.json"; // 调试时使用的数据包（内置）
+    DefaultPackageSource = "./default.json"; // 调试时使用的数据包（内置）
 
     packageSource = chizaobook.packageSource;
 
     if ((packageSource === undefined) || (packageSource == null) || (packageSource == "") || (packageSource == []) || (packageSource == [''])) {
 
-        packageSource = "/package_source.json" // 默认数据源
+        packageSource = "./package_source.json" // 默认数据源
 
         getPackage();
 
