@@ -119,5 +119,3 @@ function socket(){ // 临时存储桶 & 传出接口
 
     console.log("\n %c 摛藻(Chizao Book) " + Chizaobook_appData.Version + "%c https://github.com/ChizaoProject/chizaobook \n","color: #fadfa3; background: #89303f; padding:5px 0;","background: #ccc3aa; padding:5px 0;"); // 控制台日志 SUCCEED
 }
-
-callback();
