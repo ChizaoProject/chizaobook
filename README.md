@@ -1,6 +1,6 @@
 <h1 align="center">『摛藻』</h1>
 
-<center><img src="https://chizao.fly6022.fun/images/logo.png" width="30%"></center>
+<center><img src="https://chizao.kuri.ink/images/logo.png" width="30%"></center>
 
 > 『摛藻』是一个基于 JavaScript 开发的文学类项目.
 
@@ -81,7 +81,7 @@ const chizaobook = new Chizaobook({
 // @author : fly6022 
 // @date   : 2022/8/15
 // @Licence: GPL v3.0
-// @Website: https://chizao.fly6022.fun
+// @Website: https://chizao.kuri.ink
 // @version: v1.0.0
 ```
 
