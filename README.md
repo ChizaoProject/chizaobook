@@ -4,7 +4,7 @@
 
 > 『摛藻』是一个基于 JavaScript 开发的文学类项目.
 
-![](https://img.shields.io/badge/language-Javascript-yellow?style=flat-square) ![](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) [![](https://img.shields.io/badge/license-GPL%20v3.0-blue?style=flat-square)](https://github.com/ChizaoProject/chizaobook/blob/master/LICENSE) ![](https://img.shields.io/badge/version-1.0.0-red?style=flat-square)
+![](https://img.shields.io/badge/language-Javascript-yellow?style=flat-square) ![](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) [![](https://img.shields.io/badge/license-GPL%20v3.0-blue?style=flat-square)](https://github.com/ChizaoProject/chizaobook/blob/master/LICENSE) ![](https://img.shields.io/badge/version-1.1.0-red?style=flat-square)
 
 [![hits](https://img.shields.io/jsdelivr/gh/hy/ChizaoProject/chizaobook?style=flat-square)](https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook) ![code-size](https://img.shields.io/github/languages/code-size/ChizaoProject/chizaobook?style=flat-square) 
 
@@ -21,7 +21,7 @@
 - 通过 jsDelivr 安装
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@latest/app.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/app.js"></script>
 ```
 
 ## 使用
@@ -40,6 +40,27 @@ const chizaobook = new Chizaobook({
     packageSource: "", // string
     packageType: 8 // int
 });
+```
+
+## 异步加载
+
+jsDelivr CDN有时较慢，可以采用以下方法进行异步加载，防止阻塞页面正常加载。
+
+```html
+<script>
+    let app = document.createElement('script');
+        app.src = 'https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/app.js';
+        app.async = true;
+        app.onload = function () {
+            chizaobook = new Chizaobook({
+                container: "chizaobook", // string
+                packageSource: "", // string
+                packageType: 8 // int
+          })
+          chizaobook.selector();
+        };
+    document.head.appendChild(app);
+</script> 
 ```
 
 ### packageSource
