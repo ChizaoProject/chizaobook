@@ -4,14 +4,20 @@
         <title>摛藻</title>
     </head>
     <body>
-        <script src="./app.js"></script>
         <script>
-            const chizaobook = new Chizaobook({
-                container: "chizaobook", 
-                packageSource: "./default.json",
-                packageType: 8
-            });
-        </script>  
-        <chizaobook>
+    let app = document.createElement('script');
+        app.src = './chizaobook.app.js';
+        app.async = true;
+        app.onload = function () {
+            chizaobook = new Chizaobook({
+                container: "chizaobook", // string
+                packageSource: "./default.json", // string
+                packageType: null // int
+          })
+          chizaobook.selector();
+        };
+    document.head.appendChild(app);
+</script> 
+    <chizaobook>
     </body>
 </html>

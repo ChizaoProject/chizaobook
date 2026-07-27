@@ -4,7 +4,7 @@
 
 > 『摛藻』是一个基于 JavaScript 开发的文学类项目.
 
-![](https://img.shields.io/badge/language-Javascript-yellow?style=flat-square) ![](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) [![](https://img.shields.io/badge/license-GPL%20v3.0-blue?style=flat-square)](https://github.com/ChizaoProject/chizaobook/blob/master/LICENSE) ![](https://img.shields.io/badge/version-1.1.0-red?style=flat-square)
+![](https://img.shields.io/badge/language-Javascript-yellow?style=flat-square) ![](https://img.shields.io/badge/build-passing-brightgreen?style=flat-square) [![](https://img.shields.io/badge/license-GPL%20v3.0-blue?style=flat-square)](https://github.com/ChizaoProject/chizaobook/blob/master/LICENSE) ![](https://img.shields.io/badge/version-1.2.0-red?style=flat-square)
 
 [![hits](https://img.shields.io/jsdelivr/gh/hy/ChizaoProject/chizaobook?style=flat-square)](https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook) ![code-size](https://img.shields.io/github/languages/code-size/ChizaoProject/chizaobook?style=flat-square) 
 
@@ -21,7 +21,7 @@
 - 通过 jsDelivr 安装
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/app.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/chizaobook.app.js"></script>
 ```
 
 ## 使用
@@ -49,7 +49,7 @@ jsDelivr CDN有时较慢，可以采用以下方法进行异步加载，防止�
 ```html
 <script>
     let app = document.createElement('script');
-        app.src = 'https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/app.js';
+        app.src = 'https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/chizaobook.app.js';
         app.async = true;
         app.onload = function () {
             chizaobook = new Chizaobook({
@@ -94,16 +94,16 @@ jsDelivr CDN有时较慢，可以采用以下方法进行异步加载，防止�
 
 ## 源信息
 
-以下包含了开源项目信息、作者信息以及开源许可信息，供开发人员参考。
+以下内容包含了开源项目信息、作者信息以及开源许可信息，供开发人员参考。
 
 ```
 // -*- coding: utf-8 -*-
 // @name   : 摛藻Book(Chizao Book)
-// @author : fly6022 
-// @date   : 2022/8/15
+// @author : KuriCL
+// @date   : 2026/7/27
 // @Licence: GPL v3.0
 // @Website: https://chizao.kuri.ink
-// @version: v1.0.0
+// @version: v1.2.0
 ```
 
 欲获取更加详细的项目内容，您可以尝试调用项目内置的静态属性：
